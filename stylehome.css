@@ -1,0 +1,268 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* homepage end */
+/* navbar start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+.nav-left i {
+    margin-right: 10px;
+    color: #526b5c;
+    font-size: 25px;
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+ul {
+    display: flex;
+    list-style-type: none ;
+}
+ul li {
+    margin-right: 40px;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 4px;
+}
+ul li .bold {
+    font-weight: bold;
+}
+.nav-right button {
+    background-color: #526b5c ;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+
+}
+.nav-right button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-style: normal;
+}
+/* navbar end */
+/* section-one start */
+.section-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-one img  {
+    width: 1185px;
+    height: 340px;
+    border-radius: 5px;
+}
+/* section-one start */
+/* section-two start */
+.section-two{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-two div img{
+    width: 232.4px;
+    border-radius: 5px;
+}
+.section-two-first {
+    width: 232.4px;
+    height: 272.48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.section-two-first h2 {
+    font-weight: 900;
+    font-style: normal;
+}
+.section-two-first p {
+    color: #aaa;
+}
+.section-two-first button {
+    background-color: #526b5c;
+    background-color: #526b5c ;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+.section-two-first button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-style: normal;
+    font-size: larger;
+}
+/* section-two end */
+/* homepage end */
+
+/* SERVICE start */
+
+.section-three {
+    height: 88vb;
+    background-color: #526b5c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+.first-p {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    background-color: #526b5c;
+    width: 1180px;
+}
+ .first-p h1 {
+    color: white;
+    font-family: "Poppins", sans-serif;  
+    font-weight: 900;
+    font-style: normal;
+}
+ .first-p p {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+.section-three   .second {
+    display: flex;
+    justify-content: space-around;
+}
+.section-three .second div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 340px;
+    height: 390px;
+    background-color: white;
+    border-radius: 5px;
+}
+.section-three .second .mid {
+  margin: 0 50px;
+}
+.section-three .second div img {
+    padding: 10px;
+    width: 330px;
+    height: 330px;
+    border-radius: 5px;
+
+}
+/* SERVICE end */
+/* PRICING */
+.section-four {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.continer {
+    width: 1185px;
+    background-color: #526b5c; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 88vb;
+}
+.plan {
+   display: flex;
+   justify-content: space-evenly;
+}
+.plan div {
+    width: 300px;
+    height: 380px;
+    border: 3px solid white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    padding: 10px;
+}
+.plan .left:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+}
+.plan .left .icon {
+    background-color: #63806f;
+    width: 270px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.plan .left .icon i {
+    font-size: 60px;
+    color: white;
+}
+.plan .left .content {
+    border: none;
+    color: white;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center; 
+}
+.plan .left .booking {
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0 25px;
+}
+.plan .left .booking p {
+    font-weight: 900;
+    font-style: normal;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+.booking button {
+    width: 100px;
+    height: 40px;
+    background-color: #63806f;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 700;
+    font-style: normal;
+    font-size: larger;
+}
+.color {
+    background-color: white;
+}
+.color-black {
+    color: black;
+}
+.color-aaa {
+    color: #635f5f;
+}
+.color-green {
+    color: #526b5c;
+}
+.color-white{
+    color: white;
+}
+/* PRICING */
+
